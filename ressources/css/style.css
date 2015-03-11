@@ -1,0 +1,205 @@
+/**General**/
+@font-face {
+	font-family: 'Didot';
+	src: url('typo/TheanoDidot.ttf') format('truetype');
+}
+
+/*
+*	Template
+*/
+body{
+
+	color: #7b7b7b;
+}
+
+body, html {
+	background: #1f1f1f;
+	color: #7b7b7b;
+	font-family : Didot;
+	font-size : 15px;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+h1{
+	display: none;
+}
+
+
+/*
+*	Index
+*/
+.top.index .container{
+	width: 100%;
+}
+.top.index .container>.navbar-collapse{
+	margin:  !important;
+}
+
+#logo_index_div{
+	text-align: center;
+	margin-top: -10px;
+}
+#logo_index{
+	height: 40%;
+	width: 40%;
+}
+#motto{
+	text-align: center;
+	display: inline;
+	color: #3d3838;
+}
+#rouge{
+	background: #E73434;
+}
+#img_marquise{
+	width:100%;
+	vertical-align: baseline !important;
+}
+#menu{
+	text-align:center;
+}
+.dessin{
+	height: 15%;
+	width: 15%;
+	display: none;
+}
+#dessin2{
+	margin-top: 25px;
+}
+#dessin3{
+	margin-top: 25px;
+	height: 25%;
+	width: 25%;
+}
+
+/*
+*	Header
+*/
+
+.top{	
+    font-family: 'Didot';
+    color: #7b7b7b;
+	background: #1f1f1f;
+}
+
+.top .container {
+    padding: 0;
+}
+
+.top .logo_header {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.navbar-nav li a {
+    font-family: 'Didot';
+    color: #7b7b7b;
+}
+.navbar-nav li a:hover {
+    background-color: #373737;
+}
+
+.container-fluid>.navbar-collapse, 
+.container-fluid>.navbar-header, 
+.container>.navbar-collapse, 
+.container>.navbar-header{
+	width:100% !important;
+	margin: 0 !important;
+}
+/*
+*	Middle
+*/
+.middle {
+	font-family : 'Didot';
+	background: #1f1f1f;
+	color: #7b7b7b;
+	min-height: 90.2%;
+}
+.middle .container {
+	margin: auto;
+}
+
+/*
+*	Footer
+*/
+.bottom {
+	width: 100%;
+	min-height: 4%;
+	height: 4%;	
+	background: #1f1f1f;
+	color: #7b7b7b;
+	text-align: center;
+}
+.navbar-toggle {
+    margin: 3px;
+    padding: 2px 5px;
+    line-height: 32px;
+}
+.navbar-toggle:hover {
+    background-color: #373737;
+}
+.navbar-nav {
+    margin: 0;
+    text-align: center;
+}
+
+.content p {
+    line-height: 30px;
+    font-size: 16px;
+}
+
+#logo_facebook{
+	height:20px;
+	width:20px;
+	margin-left:8px;
+	vertical-align:-20%;
+}
+
+
+/*
+*	Contact
+*/
+#contact{
+	font-size: 1.5em;
+	margin-top: 15%;
+}
+
+#contact p{
+	padding-bottom: 30px;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact p:not(:last-child){	
+	border-bottom: 5px dotted  #7b7b7b;
+}
+
+/*
+*	Carte
+*/
+.tabs{
+	margin-top: 10%;
+}
+
+
+/*
+*	Responsive
+*/
+
+@media screen and (max-width: 768px) {
+  .middle {
+  	font-size: 10px;
+  }
+  #contact p{
+  	width: 100%;
+  }
+  .bottom {
+  	height: 8%;
+  }
+}

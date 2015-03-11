@@ -1,0 +1,18 @@
+<div class="middle">
+	<div class="container">
+		<h1>Carte</h1>
+		<a id="flag_french" href="<?php echo "/carte/index/?lang=fr";?>"><img class="flag" src="/ressources/images/fr.png" alt="Français"/></a>
+		<a href="<?php echo "/carte/index/?lang=en"; ?>"><img class="flag" src="/ressources/images/en.png" alt="Anglais"/></a>		
+		<?php
+			if($language == "fr"){
+				include('menu_fr.phtml');
+			}
+			else if($language == "en"){
+				include('menu_en.phtml');
+			}
+			else{
+				include('menu_fr.php');
+			}
+		?>
+	</div>
+</div>
